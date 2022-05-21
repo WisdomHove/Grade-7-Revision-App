@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> ENGLISH 2</h1>
+
+</header>
+
+<ul>
+	    <li><a href="ENGLISH.html">ENGLISH 1</a></li>
+        <li><a href="ENGLISH3.html">ENGLISH 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+
+<br>
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="ENGLISH2.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nQ1 How do we pronounce girl in plural form. \nThe answer is answer Talk, \nQ2 What is the antonym of powerful?\n The answer is Weak.\nQ3The present test of cooked is?\n The answer is Cook \nQ4When did COVID-19 started?The answer is 2019\nQ5 Present participle: I _____ singing a song.The answer is Am\nQ6The correct age for teenage pregnancy is\nThe answer is 13-19\nQ7What is the medium communication people use most in S.A?\nThe answer is English\nQ9 How many months in a year?\nThe answer is 12\nQ10River is a noun\nThe answer is True \n\n\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+</script>
+</body>
+</html>

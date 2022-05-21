@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> ENGLISH 1</h1>
+
+</header>
+<ul>
+	    <li><a href="ENGLISH2.html">ENGLISH 2</a></li>
+        <li><a href="ENGLISH3.html">ENGLISH 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+
+<br>
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+    <div id="David">
+             
+             <script>
+			 function retryConnect(){
+			 location="ENGLISH.html";
+			 }
+		     </script>
+	        
+			 <script>
+			 function proceedNext(){
+			 location="ENGLISH2.html";
+			 }
+			 </script>
+    </div>
+
+</div>
+<script src="ENGLISH1.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nQ1: How do we pronounce girl in plural form.\n The answer is : Girls, \n Q2: Traffic lights have which colour? \nThe answer is Green.\n Q3: The opposite of positive is? \nThe answer is Negative\n Q4: Which country does the soccer team Bafana Bafana represent? \nThe answer is South Africa\n Q5: What is sleep in past test? \nThe answer is Slept\n Q6: What is fly in past test? \nThe answer is Flew\n Q7: What is the correct spelling for this word? \nThe answer is People\n Q8: What fish do when it moves from point A to point B? \nThe answer is Swim\n Q9: What is the plural form of fish? \nThe answer is Fish\n Q10: Who is the minister of education? \nThe answer is Angie \n\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+</script>
+</body>
+</html>

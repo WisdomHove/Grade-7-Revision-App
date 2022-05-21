@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> ENGLISH 3</h1>
+
+</header>
+<ul>
+	    <li><a href="ENGLISH.html">ENGLISH 1</a></li>
+        <li><a href="ENGLISH2.html">ENGLISH 2</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+
+<br>
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="ENGLISH3.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nQ1: Which drug commonly used?\n The answer is : Daga, \nQ2: Meaning of the slang word (LEKKER)?\n The answer is Good \nQ3: What is the plural form of sheep?\n The answer is Sheep \nQ4: What is the plural form of life?\n The answer is : Lives, \nQ5: Past participle: He ___________ finished with a project?\n The answer is : Was, \nQ6: Past participle: She ____________ burned dinner before?\n The answer is : Has,\nQ7: Past participle: I _______ lived an interesting life?\n The answer is : Have,\nQ8: Past participle: He _________ lied to me too many times?\n The answer is : Has, \nQ9: Present participle: She ________ babysitting tonight?\n The answer is : Is,\nQ10: Past participle: The cookies ____________ baked fresh this morning.\n The answer is : Were, \n\n PLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+</script>
+</body>
+</html>

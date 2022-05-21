@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ENGLISH Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+    <div id = "navigation">
+
+        <ul>
+        <li><a href = "Index.html">Home</a></li>
+        <li><a href = "LOlandingPage.html">Life Orientation</a></li>
+        <li><a href = "Mathslandingpage.html">Mathematics</a></li>
+        <li><a href = "EnglishLandingPage.html">English</a></li>
+        <li><a href = "Sepedilandingpage.html">Sepedi</a></li>
+        <li><a href = "NSlandingpage.html">Natural Science</a></li>
+        
+        
+        </div><!--navigation-->
+
+<header>
+
+    <h1> ENGLISH</h1>
+
+</header>
+
+<div class="chapters">	
+
+    <button class="accordion">Term 1</button>
+    <div class="panel">
+     <a href="Books/EnglishTxtbook.pdf#page=8">STORIES EVERYDAY</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=22">NEW EXPERIENCES</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=34">WHATS ON TELEVISION</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=48">MYTHS OF THE SUN</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=62">PICTURES AND WORDS</a>
+     </div>
+     <br>
+     
+     <button class="accordion">Term 2</button>
+     <div class="panel">  
+     <a href="Books/EnglishTxtbook.pdf#page=76">COMMUNITY VOLUNTEERS</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=88">THE POWER OF ADVERTISEMENT</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=102">A GAME TO MAKE AND PLAY</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=116">HERITAGE HEROES</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=134">QUESTIONS FOR YOU</a>
+     </div>
+     <br>
+     
+     <button class="accordion">Term 3</button>
+     <div class="panel">
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=150">WOMENS WORK AND MENS WORD</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=164">READ AND SUCCEED</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=180">DANGERIOUS JOURNEYS</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=194">SURVING IN THE CITY</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=210">FRIENDS OR FOE</a>
+     </div>
+     <br>
+     
+     <button class="accordion">Term 4</button>
+     <div class="panel">  
+    
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=224">FRIENDS OF THE FOREST</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=240">ANIMAL ATTITUDES</a>
+     <br>
+     <a href="Books/EnglishTxtbook.pdf#page=252"> SIMPLY STUDY</a>
+     </div>
+     <br>
+
+
+
+
+
+     
+   
+   <script>
+     var acc = document.getElementsByClassName("accordion");
+     var i;
+     
+     for (i = 0; i < acc.length; i++) {
+       acc[i].addEventListener("click", function() {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+           panel.style.display = "none";
+         } else {
+           panel.style.display = "block";
+         }
+       });
+     }
+     </script>
+     
+   </div>
+     
+
+
+<br>
+<div class="button2">
+    <a href="ENGLISH.html" class="button">Take Quiz</a>
+</div>
+
+</body>
+</html>
