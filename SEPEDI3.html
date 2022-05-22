@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+    <h1> SEPEDI 3</h1>
+
+</header>
+
+<ul>
+	    <li><a href="Sepedi.html">SEPEDI 1</a></li>
+        <li><a href="SEPEDI2.html">SEPEDI 2</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<br>
+
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="Images/ns.jpg" width=80 height=80></a>
+        <a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+</div>
+
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="SEPEDI3.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nPOTSISO 1: Go topa tsa fase. Karabo ke Go hloka , \nPOTSISO 2:Ge bare tswalang le ate ba ra goreng?. Karabo ke Go belega .\nPOTSISO 3:Go fahla magotlo.  Karabo ke Go rota.\nPOTSISO 4:Ngwana magana go botswa o wetse komeng are.Karabo ke Koma ke ya geso .\nPOTSISO 5:Se bone thola boreledi teng ya gona. Karabo ke Go a baba .\nPOTSISO 6:Le ge o ka e buela legopeng _______.Karabo ke Magokobu a go bona .\nPOTSISO 7:Ngwaga o na le dikgwedi tse kae?.Karabo ke Lesomepedi .\nPOTSISO 8:Bontshi bja dikgong ke eng?. Karabo ke Ngata.\nPOTSISO 9:Bafana Bafana ke sehlopha sa naga ya. Karabo ke Afrika Borwa .\nPOTSISO 10:Afrika Borwa go somiswa mohuta ofe wa tshelete?. Karabo ke Ranta.\n\nKGOTLA <OK> GO BONA MEPUTSO!");
+}
+</script>
+</body>
+</html>

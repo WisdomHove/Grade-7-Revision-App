@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> Mathematics3</h1>
+
+</header>
+<ul>
+	    <li><a href="Mathematics.html">MATHEMATICS 1</a></li>
+        <li><a href="Mathematics2.html">MATHEMATICS 2</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+</ul>
+	
+<h1> OTHER SUBJECTS</h1>
+
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="Images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="Images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="MATHS3.js">
+</script> 
+<script>
+function show_alert()
+{
+ 
+     alert("ANSWERS\n\n Q1 47 – 4 × 5 ÷ 4 + 8? THE ANSWER IS 50.\n Q2 The numbers 4, 8, 12, 16 are in ....order.THE ANSWER IS Ascending\n Q3 p – 14 for p = 38. THE ANSWER IS 24\n Q4 5+3x15/6-2. THE ANSWER IS 10.5\n Q5 The shape that has four equal sides. THE ANSWER IS Square\n Q6 200 = 10n. THE ANSWER IS 20=n\n Q7 Which is a characteristic of a rational number?. THE ANSWER IS It will be written in fraction form\n Q8 Which decimal is less than 3.19.THE ANSWER IS 3.179\n Q9 The lowest common multiple of 5 and 7.THE ANSWER IS 35\n Q10 What unit do we use to calculate liquid.THE ANSWER IS Litres\n PLEASE CLICK OK TO SEE THE SCORE");
+}
+	 </script>
+</body>
+</html>

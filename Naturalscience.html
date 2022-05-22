@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> NaturalScience</h1>
+
+</header>
+
+<ul>
+	    <li><a href="NaturalScience2.html">NATURAL SCIENCE 2</a></li>
+        <li><a href="NaturalScience3.html">NATURAL SCIENCE 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/ENG.png" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80> </a>
+        <a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="Naturalscience.js"></script>
+<script>
+function show_alert()
+{
+ 
+     alert("ANSWERS\nQ1 Who was the first person to use the term nanotechnology.THE ANSWER IS GORDON GLOUD, \n Q2 A tissue paper has its thickness meansured to be o,3 mm. what is the thickness of the tissue paper in nanumeters? THE ANSWER IS 300 nm.\n Q3 The word atom is a greek word meaning? THE ANSWER IS SMALL.\n Q4 How many naturally occaring elements exist on earth.THE ANSWER IS  118\n Q5In which year South Africa became a democratic country?.THE ANSWER IS 1994\n Q6 Rules what would be the chemical symbol for bieberium.THE ANSWER IS bu\n Q7 Soluble mel oxides are?.THE ANSWER IS Basic\n Q8 What animal has the shortest lifespan of any animal on earth.THE ANSWER IS Dragon fly\n Q9 If a bulb conneted between DE blows out the the ammeter reading between  AB will.THE ANSWER IS Increase.\n Q10 Which one of the following is an egg laying mammal.THE ANSWE IS Chicken.\n  PLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+	 </script>
+</body>
+</html>

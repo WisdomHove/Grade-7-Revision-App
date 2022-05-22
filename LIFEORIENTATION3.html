@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> Life Orientation3</h1>
+
+</header>
+
+<ul>
+	    <li><a href="LifeOrientation.html">LIFE ORIENTATION 1</a></li>
+        <li><a href="LIFEORIENTATION2.html">LIFE ORIENTATION 2</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80> </a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="LO3.js"></script>
+<script>
+function show_alert()
+{
+ 
+     alert("ANSWERS\nQ1 People who like to be in control and be independent think and learn Answer=B(Investigative).\nQ2_____is very important to maintain a good relationship: Answer=C (communication)\nQ3  Artist career category include: Answer=C(Singing and dancing)\nQ4 _do not come with a list of ingredients on the packaging because it will kill you or harm you: Answer=B(illegal drugs).\nQ5 Your__is the social setting or surrounding you live in:Answer=C(Environment).\nQ6 The following qualities are necessarily for a successful,long-lasting relationship:Answer=A(Respect,honesty,love and faithfulness).\nQ7 A physical fit and healthy person should have a body-mass index:Answer=C (18,5 and 25).\nQ8 It is very important to obtain a National Senior Certificate (NCS) because it gives you the opportunity to...:Answer=A(Physical activity and substance abuse).\nQ9 One of the main benefits of an independent media in a country is that:Answer=C(Develop through further studies and find employment)\nQ10 One of the main benefits of an independent media in a country is that:Answer=C (All of the above)\n\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+	 </script>
+</body>
+</html>

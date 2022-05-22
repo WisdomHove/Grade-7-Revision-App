@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> Life Orientation2</h1>
+
+</header>
+
+<ul>
+	    <li><a href="LifeOrientation.html">LIFE ORIENTATION 1</a></li>
+        <li><a href="LIFEORIENTATION3.html">LIFE ORIENTATION 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="LO2.js"></script>
+<script>
+function show_alert()
+{
+ 
+     alert("ANSWERS\nQ1 The environment that will live in can affect our__.THE ANSWER IS:A- Emotional social and physical well-being,\nQ2The aim of environment health is to..\n THE ANSWER IS:C-All of the above.\nQ3 Select the sentence in which the term 'mortality rate' has been used correctly..?THE ANSWER IS: B-The mortality rate in underdeveloped countries is usually higher than the mortality rate in developed countries..\nQ4 In the sentence ‘The room was well-ventilated', the word ventilated means:THE ANSWER IS : A-Having air moving through..\nQ5In the sentence'Jacob stored all the perishable items in the fridge.'the word perishable refers to...?THE ANSWER IS: C-Items that go rotten quickly\nQ6 Binge drinking can be classified as..?THE ANSWER IS:C- A risky situation.\nQ7 Risks of binge drinking include..?\nTHE ANSWER IS:A-ruining your reputation.\nQ8 Which one of the following is INCORRECT with regards to substance abuse ...?\nTHE ANSWER IS: B-Substance abuse is not related to violence at home\nQ9 Social Media is a contributing factor to teens using substances because:\nTHE ANSWER IS:C-All of the above\nQ10 Substance abuse is more risky to a teen because.?\nTHE ANSWER IS:C-All of the above.\n\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+	 </script>
+</body>
+</html>

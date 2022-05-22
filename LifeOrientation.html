@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> Life Orientation1</h1>
+
+</header>
+
+<ul>
+	    <li><a href="LIFEORIENTATION2.html">LIFE ORIENTATION 2</a></li>
+        <li><a href="LIFEORIENTATION3.html">LIFE ORIENTATION 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="LO1.js"></script>
+<script>
+
+function show_alert()
+{
+	alert("ANSWERS\n\n Q1.COVID-19 can be spread by.The answer is All of the above\nQ2We need to ensure we keep a social distance of.The answer is 1.5m\n Q3.The COVID-19 virus was first found in.The answer is China\n Q4.When we are infected with the virus we have to.The answer is isolate ourselves in our home\n Q5.In which year South Africa became a democratic country?The answer is 1994.\n Q6.With-holding basic such as food or clothing is a form of_.The answer is Neglect.\n Q7.A support system is_.The answer is Friends and family who you can turn to for advice and help .\n Q8.A career field is_.The answer is A single job\n Q9.Communication means_.The answer is sending and recieving the information.\n Q10.I can protect myself from COVID-19 BY?The answer is all of the above.\n\n.PLEASE CLICK OK TO VIEW THE MARKS");
+}
+</script>
+</body>
+</html>

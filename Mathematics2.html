@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> Mathematics2</h1>
+
+</header>
+<ul>
+	    <li><a href="Mathematics.html">MATHEMATICS </a></li>
+        <li><a href="Mathematics3.html">MATHEMATICS 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+</ul>
+	
+<h1> OTHER SUBJECTS</h1>
+
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="Images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="Images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="Images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="MATHS2.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nQUESTION 1:The perimeter of a regular pentagon with one side equal to 5 cm is…. The answer is 25cm. \nQUESTION 2:A set of points with a definite starting point and no definite end-point is called?. The answer is Ray.\nQUESTION 3:Find BC, if the area of the triangle ABC is 36 cm2 and the height AD is 3 cm., The answer is 24cm.\nQUESTION 4:What percentage is 1 200 of 5 000?.The answer is 24%.\nQUESTION 5:32 written as a product of its prime factors is ….The answer is 2 × 2 × 2 × 2 × 2.\nQUESTION 6:Divide. Estimate to check whether the answer is reasonable 306 ÷ 3.4 .The answer is 90.\nQUESTION 7:Solve the following 2.02w = −3.636?.The answer is –1.8.\nQUESTION 8:Kristi had $7.00 when she went to the store. When she got back, she had $2.36. How much did she spend.The answer is $4.64.\nQUESTION 9:Larry took 21 minutes to do 7 math problems. Mary took 19 minutes to do 8 math problems. Which student did more problems per minute?.The answer is Mary.\nQUESTION 10:Two parallelograms are similar. The base of the first is 12 cm, and its height is 8 cm. Find the base of the second parallelogram if its height is 34 cm?.The answer is 51 cm.\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+</script>
+
+</body>
+</html>

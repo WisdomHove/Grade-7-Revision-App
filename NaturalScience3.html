@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> NaturalScience3</h1>
+
+</header>
+
+<ul>
+	    <li><a href="NaturalScience.html">NATURAL SCIENCE 1</a></li>
+        <li><a href="NaturalScience2.html">NATURAL SCIENCE 2</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+		<a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="NaturalScience3.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nQ1 In the daylight the human eye is most sensitve to...colour.The answer is answer red\nQ2What colour is planet mercury...?The answer is red.\nQ3 What is the name of the smallest planet with regard to both mars and volume in our solar system.The answer is Mercury\nQ4 When did john glenn use the space capsule friendship7 to the first orbit of the earth.The answer is 1962\nQ5What is planet jupiter famous for.The answer is Big red spot\NQ6 Temperature at the surface of the sun is in the region of?The answer is2000 c\nQ7 Who was the first men to hit the golf ball on the mood.The answer is Alan sherpard \nQ8 Who discovered the planet urenas in 1781The answer is William hercshel\nQ9 An astronat in the outer speace will obersve as.. in colour.The answer is White\nQ10When was the first pioneer space probe launched by the united states of america.The answer is 1958.\n\nPLEASE CLICK OK TO VIEW YOUR MARKS!");
+}
+</script>.
+</body>
+</html>.

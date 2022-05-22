@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> SEPEDI</h1>
+
+</header>
+<ul>
+	    <li><a href="SEPEDI2.html">SEPEDI 2</a></li>
+        <li><a href="SEPEDI3.html">SEPEDI 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+
+<h2>DITHUTO TŠE DINGWE</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80></a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="SEPEDI1.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nPOTSISO 1: Mma o apea bogobe sedirwa ke. Karabo ke Mma,\nPOTSISO 2:Oka thibela bjang bolwetsi ka kokwana ya korona. Karabo ke Tsona ka moka .\nPOTSISO 3:Twatse ya kokwana hloko e thomile ka ngwaga ofe.  Karabo ke 2019.\nPOTSISO 4:Ditshwayo tsa go bontsha gore motho a kaba ana le kokwana hloko(covid 19) .Karabo ke Mokguhlwane.\nPOTSISO 5:Ka ngwaga wa kokwana holoko ya (covid 19) moetapele wa naga ebe ele. Karabo ke Ramaphosa.\nPOTSISO 6:Gona le tshelete yeo e tswelego ya batho ba gose some ka nako ya kokwana hloko ya (covid 19) ebe ele bokae.Karabo ke 350.\nPOTSISO 7:Leuba la COVID 19 le thomile nageng efe.Karabo ke China.\nPOTSISO 8:Yengwe yadi Kaonafatso tseo di tsweleditswego rele gare ga leuba ya COVID 19 ke. Karabo ke johnson johnson.\nPOTSISO 9:Kedi metara tse kae tseo swanetse re fane tsona ge motho ale setshabeng. Karabo ke 1,5m.\nPOTSISO 10:Ge o hweditswe ona le twatsi ya bolwetsi ba COVID 19 o swanela kego ke tswalelela matsatsi ama kae. Karabo ke 14.\n\nKGOTLA <OK> GO BONA MEPUTSO!");
+}
+</script>
+</body>
+</html>

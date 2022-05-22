@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+
+<div id = "navigation">
+
+    <ul>
+    <li><a href = "Index.html">Home</a></li>
+    <li><a href = "LOlandingPage.html">Life Orientation</a></li>
+    <li><a href = "Mathslandingpage.html">Mathematics</a></li>
+    <li><a href = "EnglishLandingPage.html">English</a></li>
+    <li><a href = "Sepedilandingpage.html">Sepedi</a></li>
+    <li><a href = "NSlandingpage.html">Natural Science</a></li>
+    
+    
+    </div><!--navigation-->
+
+<header>
+
+    <h1><i> MATHEMATICS</i></h1>
+
+</header>
+
+
+
+
+
+
+ 
+<div class="chapters">	
+     
+    <br>
+
+    <button class="accordion">Term 1</button>
+    <div class="panel">
+        <a href="Books/MATHSTXTBOOK.pdf#page=51">ALGEBRA(INTERGERS)</a>
+     <br>
+     <a href="Books/MATHSTXTBOOK.pdf#page=111">ALGEBRA(RATIONAL NUMBERS)</a>
+     <br>
+     <a href="Books/MATHSTXTBOOK.pdf#page=171">REAL NUMBERS (PYTHEGOREAN THEOREM)</a>
+     </div>
+     <br>
+    
+    
+    
+
+    <button class="accordion">Term 2</button>
+    <div class="panel">
+        <a href="Books/MATHSTXTBOOK.pdf#page=217">PROPORTIONS AND SIMILARITY (RATIONS AND RATES)</a>
+        <br>
+        <a href="Books/MATHSTXTBOOK.pdf#page=279">PERCENT (RATIOS AND PERCENTS)</a>
+        <br>
+        <a href="Books/MATHSTXTBOOK.pdf#page=333">GEOMETRY (LINE AND ANGLE RELATIONSHIPS)</a>
+        
+    </div>
+
+    
+    <br>
+   
+
+    <button class="accordion">Term 3</button>
+<div class="panel">
+    <a href="Books/MATHSTXTBOOK.pdf#page=379">MEASUREMENT (AREA AND VOLUME)</a>
+    <br>
+    <a href="Books/MATHSTXTBOOK.pdf#page=491">ALGEBRA (LINEAR FUNCTIONS)</a>
+    <br>
+    <a href="Books/MATHSTXTBOOK.pdf#page=549">ALGEBRA (NONLINEAR FUNCTIONS)</a>
+    
+</div>
+    <br>
+
+    <button class="accordion">Term 4</button>
+<div class="panel">
+    <a href="Books/MATHSTXTBOOK.pdf#page=595">STATISTICS(MAKE A TABLE))</a>
+    <br>
+    <a href="Books/MATHSTXTBOOK.pdf#page=653">PROBABILITY (COUNTING OUTCOMES)</a>
+    
+</div>
+
+<script>
+ var acc = document.getElementsByClassName("accordion");
+ var i;
+ 
+ for (i = 0; i < acc.length; i++) {
+   acc[i].addEventListener("click", function() {
+     this.classList.toggle("active");
+     var panel = this.nextElementSibling;
+     if (panel.style.display === "block") {
+       panel.style.display = "none";
+     } else {
+       panel.style.display = "block";
+     }
+   });
+ }
+ </script>
+ 
+</div>
+<br>
+<a href="Mathematics.html" class="button">Take Quiz</a>
+
+
+</body>
+</html>

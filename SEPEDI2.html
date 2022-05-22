@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+
+<header>
+
+    
+    <h1> SEPEDI 2</h1>
+
+</header>
+<<ul>
+	    <li><a href="Sepedi.html">SEPEDI 1</a></li>
+        <li><a href="SEPEDI3.html">SEPEDI 3</a></li>
+		 <li><a href="Index.html">HOME</a></li>
+	
+</ul>
+
+<h2>OTHER SUBJECTS</h2>
+<div id="myDropdown" class="dropdown-content">
+		<a href="Mathematics.html"><img src="images/mt.jpg" width=80 height=80></a>
+        <a href="LifeOrientation.html"><img src="images/LO.jpg" width=80 height=80></a>
+        <a href="Sepedi.html"><img src="images/sep.jpg" width=80 height=80></a>
+        <a href="ENGLISH.html"><img src="images/en.jpg" width=80 height=80></a>
+        <a href="Naturalscience.html"><img src="images/ns.jpg" width=80 height=80> </a>
+
+
+</div>
+
+<div id="container">
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="SEPEDI2.js"></script>
+<script>
+function show_alert()
+{
+    alert("ANSWERS\n\nPOTSISO 1: Monna ke nku o. Karabo ke Llela teng, \nPOTSISO 2:Kgetha lekopanyi la maleba. Karabo ke Gore .\nPOTSISO 3:Lehlalosetsa go tee la koloi.  Karabo ke Sefatanaga.\nPOTSISO 4: Lesogana le raga kgwele ya maoto, lediri ke.Karabo ke Raga.\nPOTSISO 5:Mosima o a ngwala, lediri ke. Karabo ke Ngwala.\nPOTSISO 6:Kgetha mopeleto wa maleba.Karabo ke Kgomo.\nPOTSISO 7:Nama kgapeletswa e phuma.Karabo ke Pitsa.\nPOTSISO 8:Pinyana ge ere ping e kwele. Karabo ke Ping ye kgolo.\nPOTSISO 9:Lehlalosetsa la masodi ke. Karabo ke Dithokgwa.\nPOTSISO 10:Go hlanola direthe. Karabo ke Go tshaba.\n\nKGOTLA <OK> GO BONA MEPUTSO!");
+}
+</script>
+</body>
+</html>

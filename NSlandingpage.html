@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Natural Sciences Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+<body>
+  <div id = "navigation">
+
+    <ul>
+    <li><a href = "Index.html">Home</a></li>
+    <li><a href = "LOlandingPage.html">Life Orientation</a></li>
+    <li><a href = "Mathslandingpage.html">Mathematics</a></li>
+    <li><a href = "EnglishLandingPage.html">English</a></li>
+    <li><a href = "Sepedilandingpage.html">Sepedi</a></li>
+    <li><a href = "NSlandingpage.html">Natural Science</a></li>
+    
+    
+    </div><!--navigation-->
+
+<h1>Natural Sciences</h1>
+
+
+
+<div class="chapters">	
+     
+  <br>
+
+  <button class="accordion">Term 1</button>
+  <div class="panel">
+    <a href="Books/NSTXTBOOK.pdf#page=6">TOPIC 1:THE BIOSPHERE</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=14">TOPIC 2:BIODIVERSITY</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=34">TOPIC 3:SEXUAL REPRODUCTION</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=60">TOPIC 4:VARIATION</a>
+   </div>
+   <br>
+  
+  
+  
+
+  <button class="accordion">Term 2</button>
+  <div class="panel">
+    <a href="Books/NSTXTBOOK.pdf#page=70">TOPIC 5:PROPERTIES OF MATERIALS</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=84">TOPIC 6:SEPERATING MIXTURES</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=100">TOPIC 7:ACIDS,BASES AND NEUTRALS</a>
+    <br>
+    <a href="Books/NSTXTBOOK.pdf#page=114">TOPIC 8:THE PERIODIC TABLE OF ELEMENTS</a>
+      
+  </div>
+
+  
+  <br>
+ 
+
+  <button class="accordion">Term 3</button>
+<div class="panel">
+  <a href="Books/NSTXTBOOK.pdf#page=130">TOPIC 9:SOURCES OF ENERGY</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=136">TOPIC 10:POTENTIAL AND KINETIC ENERGY</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=152">TOPIC 11:HEAT TRANSFER</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=168">TOPIC 12:INSULATION,ENERGY SAVING AND ENERGY TRANSFER TO THE SURROUNDINGS</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=186">TOPIC 13:THE NATIONAL ELECTRICITY SUPPLY SYSTEM</a>
+  
+</div>
+  <br>
+
+  <button class="accordion">Term 4</button>
+<div class="panel">
+  <a href="Books/NSTXTBOOK.pdf#page=198">TOPIC 14:RELATIONSHIP OF THE SUN TO EARTH</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=216">TOPIC 15:RELATIONSHIP OF THE MOON TO EARTH</a>
+     <br>
+     <a href="Books/NSTXTBOOK.pdf#page=232">TOPIC 16:HISTORICAL DEVELOPMENT OF ASTRONOMY</a>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   this.classList.toggle("active");
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+</script>
+
+</div>
+<br>
+<br>
+
+<div class="button2">
+  <a href="Naturalscience.html" class="button">Take Quiz</a>
+  </div> 
+
+</body>
+</html>

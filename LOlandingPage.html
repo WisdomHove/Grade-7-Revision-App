@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Life Orientation Quiz App</title>
+    <link rel="stylesheet" href="LO3style.css">
+</head>
+
+
+<header>
+
+    <h1> Life Orientation</h1>
+
+</header>
+
+<div id = "navigation">
+
+  <ul>
+  <li><a href = "Index.html">Home</a></li>
+  <li><a href = "LOlandingPage.html">Life Orientation</a></li>
+  <li><a href = "Mathslandingpage.html">Mathematics</a></li>
+  <li><a href = "EnglishLandingPage.html">English</a></li>
+  <li><a href = "Sepedilandingpage.html">Sepedi</a></li>
+  <li><a href = "NSlandingpage.html">Natural Science</a></li>
+  
+  
+  </div><!--navigation-->
+
+
+
+
+  
+<div class="chapters">	
+     
+     <br>
+
+     <button class="accordion">Term 1</button>
+     <div class="panel">
+      <a href="Books/LOTXTBOOK.pdf#page=11">DEVELOPMENT OF THE SELF IN SOCIETY (SELF IMAGE)</a>
+      <br>
+      <a href="Books/LOTXTBOOK.pdf#page=15">PHYSICAL EDUCATION (GET FIT THIS TERM)</a>
+      <br>
+      <a href="Books/LOTXTBOOK.pdf#page=17">PHYSICAL EDUCATION (SAFETY ISSUES IN FITNESS)</a>
+      <br>
+      <a href="Books/LOTXTBOOK.pdf#page=19">DEVELOPMENT OF THE SELF IN SOCIETY (CHANNGES IN BOYS AND GIRLS)</a>
+      <br>
+      <a href="Books/LOTXTBOOK.pdf#page=29">DEVELOPMENT OF THE SELF IN SOCIETY (THE EFFECTS OF PEER PRESSURE)</a>
+     </div> 
+     
+     <br>
+     
+
+     <button class="accordion">Term 2</button>
+     <div class="panel">
+      <a href="Books/LOTXTBOOK.pdf#page=35">PHYSICAL EDUCATION (GET FIT WITH EASE)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=39">WORLD OF WORK (READING AND STUDYING)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=51">CONSTITUTIONAL RIGHTS AND RESPONSIBILITIES (HUMAN RIGHTS IN THE SOUTH AFRICAN CONSTITUTION)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=55">PHYSICAL EDUCATION (INDIGENOUS INVATION GAMES)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=59">CONSTITUTIONAL RIGHTS AND RESPONSIBILITIES (DEALING WITH ABUSE))</a>
+     </div>
+
+     
+     <br>
+    
+
+     <button class="accordion">Term 3</button>
+<div class="panel">
+  <a href="Books/LOTXTBOOK.pdf#page=65">PHYSICAL EDUCATION (PLAYING WITH INVASION GAMES)</a>
+  <br>
+  <a href="Books/LOTXTBOOK.pdf#page=73">WORLD OF WORK (CAREER FIELDS)</a>
+  <br>
+  <a href="Books/LOTXTBOOK.pdf#page=79">PHYSICAL EDUCATION (INVASION GAMES AND CHAMPIONS)</a>
+  <br>
+  <a href="Books/LOTXTBOOK.pdf#page=85">HEALTH, SOCIAL AND ENVIRONMENTAL RESPONSIBILITIES (SUBSTANCE ABUSE)</a>
+  <br>
+  <a href="Books/LOTXTBOOK.pdf#page=93">PHYSICAL EDUCATION (SAFETY IN MOVEMENT ACTIVITIES)</a>
+</div>
+     <br>
+
+     <button class="accordion">Term 4</button>
+<div class="panel">
+  <a href="Books/LOTXTBOOK.pdf#page=101">HEALTH, SOCIAL AND ENVIRONMENTAL RESPONSIBILITIES(ENVIRONMENTAL HEALTH))</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=109">PHYSICAL EDUCATION (RHYTHMIC MOVEMENT)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=115">WORLD OF WORK (CAREERS ARE FOR REAL)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=121">PHYSICAL EDUCATION (MOVE AS YOU FEEL)</a>
+     <br>
+     <a href="Books/LOTXTBOOK.pdf#page=129">DEVELOPMENT OF THE SELF IN SOCIETY (PERSONAL DIET AND NUTRITION)</a>
+</div>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
+</div>
+<br>
+
+<div class="button2">
+  <a href="LifeOrientation.html" class="button">Take Quiz</a>
+  </div> 
+
+</body>
+</html>
